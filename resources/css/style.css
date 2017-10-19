@@ -107,4 +107,25 @@ nav a {
 .ruler, .truck {
   margin-bottom: auto;
 }
+
+/*Main-Biz*/
+.about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.biz {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.box {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
 /*Footer*/
