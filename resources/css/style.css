@@ -27,30 +27,30 @@ header {
   background-position: center;
 }
 
-.logo {
+/*Navigation Bar*/
+.navbar {
   display: flex;
-  margin: 1rem 0 0 0;
+  justify-content: space-between;
   background-color: cadetblue;
-  align-items: center;
+  color: white;
   padding: 1rem 2rem;
+  margin-top: 1rem;
 }
 
-.logo img {
+.logo {
+  display: flex;
+}
+
+.logo img{
   height: 1.5rem;
   margin-right: 1rem;
 }
 
-nav {
-  display: flex;
-  margin: auto;
-}
-
 nav ul{
   display: flex;
-  margin-left: 52%;
 }
 
-nav li{
+nav li {
   margin-left: 2rem;
 }
 
@@ -129,3 +129,15 @@ nav a {
   margin-bottom: 1rem;
 }
 /*Footer*/
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: azure;
+  padding: 4rem;
+}
+
+footer .logo {
+  display: flex;
+  background-color: azure;
+}
