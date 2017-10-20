@@ -164,3 +164,53 @@ footer .logo {
     margin-right: 2rem;
   }
 }
+
+/*Media Queries < 480px*/
+@media only screen and (max-width: 480px) {
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+  .logo span {
+    display: none;
+  }
+  nav ul {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .banner {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 9rem 0 0 0;
+    padding: 0.5rem 0;
+  }
+  .services {
+    flex-direction: column;
+    font-size: 0.77rem;
+    padding: 3rem 0 2rem 0;
+  }
+  .service {
+    align-items: center;
+    margin-bottom: 1.54rem;
+  }
+  .about {
+    flex-direction: column;
+    margin: auto;
+  }
+  .biz {
+    width: auto;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+  }
+  .box {
+    width: auto;
+    text-align: center;
+  }
+  footer {
+    width: auto;
+    justify-content: center;
+  }
+}
